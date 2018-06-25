@@ -30,6 +30,8 @@ mocha-headless-chrome -f test-page.html
 ## Options
 
 - **-f, --file** - Path or URL of the page which contains tests (required)
+- **-g, --grep** - Only run tests that match a regex
+- **-i, --invert** - Inverts --grep matches
 - **-r, --reporter** - Mocha reporter name (defaults to "spec")
 - **-o, --out** - Path to the file where test result will be saved
 - **-c, --coverage** - Path to the file where coverage info will be saved
