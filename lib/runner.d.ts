@@ -23,6 +23,16 @@ interface Options {
     height?: number;
 
     /**
+     * Only run tests that match a regex.
+     */
+    grep?: string;
+
+    /**
+     * Inverts `grep` matches.
+     */
+    invert?: boolean;
+
+    /**
      * Mocha reporter name (defaults to "spec").
      */
     reporter?: string;
